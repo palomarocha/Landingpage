@@ -1,45 +1,112 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing:border-box;
-    font-family: 'Outfit', sans-serif;
-}
 body{
-    background: rgba(216, 100, 245, 0.589);
+   background: rgb(241,90,238);
+   background: linear-gradient(90deg, rgba(241,90,238,1) 31%, 
+   rgba(141,38,223,1) 100%, rgba(219,60,221,1) 100%);
+   font-family: 'Outfit', sans-serif;
 }
 .cabeçalho{
     display: flex;
-    justify-content:space-around;
-    align-items: center;
-    margin-top:2rem;
-    width: 100%;
+     justify-content: space-between;
+}
+.logo img{
+    width: 70px;
+    height:auto;
+    margin-left: 10px;
 }
 .logo{
     display: flex;
     align-items: center;
 }
-.logo img{
-    width: 119px;
-    height: auto;
+.logo h1{ 
+    color: rgb(56, 3, 75);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-left: 10px;
 }
-.logo h1{
-    color:rgb(122, 47, 145);
-    font-size:26px;
-    font-weight:600;
-    margin-right:22rem;
+.contact{
+    margin-top: 22px;
+    margin-right: 100px;
+    font-family: 'Outfit', sans-serif;
 }
-ul{
-    display:flex;
-    list-style:none;
-    gap: 6rem;
+.contact ul{
+    list-style-type: none;  
+    padding: 0;
+    margin:0;
+    
 }
-ul li a{
+.contact li{
+    margin-right: 22px;
+    display: inline-block;
+}
+.contact li:first-child{
+    margin-right: 20px;
+}   
+.contact li:last-child{
+    margin-left: auto;
+}
+.contact a{
     text-decoration: none;
-    color:rgb(122, 47, 145);
+    color: rgb(56, 3, 75);
+}
+a:hover{
+    color:rgb(112, 6, 98)
+}
+.ebook {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.ebook img {
+    width: 300px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.ebook-text {
+    display: flex;
+    flex-direction: column; 
+}
+
+.ebook-text h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px; 
+    margin-left: 70px;
+}
+.ebook p {
+    color: aliceblue;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.email, .send{
+    margin: 7px;
+    margin-left: 70px;
+}
+
+#email-id{
+   width: 20%;
+   padding: 15px;
+   border: none;
+   border-radius: 16px;
+   font-size: 14px;
+}
+button{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 16px;
+    margin: 10px;
+    margin-left: 108px;
+    font-size: 14px;
     cursor: pointer;
+    display: flex;
 }
-ul li a:hover{
-   color: rgb(209, 73, 202);
+button:hover{
+    background-color: rgb(243, 78, 141);
 }
-
-
+@media screen and (max-width: 768px){
+    
+   
+ 
+  
+  }
