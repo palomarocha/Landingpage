@@ -26,6 +26,7 @@ body{
     margin-top: 22px;
     margin-right: 100px;
     font-family: 'Outfit', sans-serif;
+   
 }
 .contact ul{
     list-style-type: none;  
@@ -48,7 +49,7 @@ body{
     color: rgb(56, 3, 75);
 }
 a:hover{
-    color:rgb(112, 6, 98)
+    color:rgb(190, 15, 190);
 }
 .ebook {
     display: flex;
@@ -59,7 +60,7 @@ a:hover{
 .ebook img {
     width: 300px;
     height: auto;
-    margin-left: 100px;
+    margin: auto;
 }
 
 .ebook-text {
@@ -102,11 +103,29 @@ button{
     display: flex;
 }
 button:hover{
-    background-color: rgb(243, 78, 141);
+    background-color: rgb(190, 15, 190);
 }
-@media screen and (max-width: 768px){
-    
-   
- 
-  
-  }
+h3{
+    color: rgb(160, 9, 97);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin:27px;
+    height: 20px;
+}
+.p-text{
+    color: rgb(116, 12, 61);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    margin:50px;   
+}
+.back a{
+    text-decoration: none;
+    color: rgb(56, 3, 75);
+    margin-left: 50%;
+}
+a:hover{
+    color:rgb(190, 15, 190);
+}
+
